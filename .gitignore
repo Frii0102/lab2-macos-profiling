@@ -1,0 +1,8 @@
+build/
+tools/
+.DS_Store
+*.trace/
+__pycache__/
+*.pyc
+results/profile-O0-20261024-164044-70721/
+# Зберігаємо results/, assembly/ та flamegraphs/ для перевірки роботи.

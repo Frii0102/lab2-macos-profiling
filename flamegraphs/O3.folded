@@ -1,0 +1,12 @@
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main;program_O3`transform(unsigned.int 2923
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main;program_O3`transform(unsigned.int 1426
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main 0
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main;libc++.1`std::chrono::steady_clock::now();libsystem_c`clock_gettime;libsystem_c`clock_gettime_nsec_np;libsystem_kernel`mach_timebase_info 1
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main;libc++.1`std::chrono::steady_clock::now();libsystem_c`clock_gettime;libsystem_c`clock_gettime_nsec_np 0
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main;libc++.1`std::chrono::steady_clock::now();libsystem_c`clock_gettime;libsystem_c`clock_gettime_nsec_np;libsystem_kernel`mach_continuous_time 1
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main;libc++.1`std::chrono::steady_clock::now();libsystem_c`clock_gettime;libsystem_c`clock_gettime_nsec_np 0
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main;libc++.1`std::chrono::steady_clock::now();libsystem_c`clock_gettime 0
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main;libc++.1`std::chrono::steady_clock::now() 0
+Thread_1414218.DispatchQueue_1:;dyld`start;program_O3`main 0
+Thread_1414218.DispatchQueue_1:;dyld`start 0
+Thread_1414218.DispatchQueue_1: 0

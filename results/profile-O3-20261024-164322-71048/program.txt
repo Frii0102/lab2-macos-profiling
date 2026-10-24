@@ -1,0 +1,1 @@
+mode=fixed-duration-profile elements=1000000 repetitions=190865 kernel_seconds=12.0001 checksum=1000000000 check=OK
