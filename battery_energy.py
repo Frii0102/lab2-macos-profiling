@@ -60,7 +60,7 @@ def collect(seconds=None, process=None):
     return samples
 
 
-def run(runs):
+def run(runs, only_level=None):
     first = reading()
     print(f"Battery {first['battery_percent']:.0f}%, discharge estimate {first['watts']:.2f} W", flush=True)
     folder = ROOT / 'results' / ('battery-' + datetime.datetime.now().strftime('%Y%m%d-%H%M%S'))
@@ -70,7 +70,8 @@ def run(runs):
     process = None
     try:
         for run_id in range(1, runs+1):
-            for level in ((0, 3) if run_id % 2 else (3, 0)):
+            levels = (only_level,) if only_level is not None else ((0, 3) if run_id % 2 else (3, 0))
+            for level in levels:
                 print(f'O{level}, run {run_id}/{runs}: background → program → background', flush=True)
                 before = collect(seconds=15)
                 with (folder / f'O{level}-{run_id}-program.txt').open('w') as output:
@@ -120,8 +121,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true')
     parser.add_argument('--runs', type=int, choices=(1,2,3), default=3)
+    parser.add_argument('--only-level', type=int, choices=(0,3), help='Retry one interrupted version; preserve original logs')
     args = parser.parse_args()
     if args.check:
         print(reading())
     else:
-        run(args.runs)
+        run(args.runs, args.only_level)

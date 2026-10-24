@@ -1,0 +1,1 @@
+mode=fixed-work elements=1000000 repetitions=200000 kernel_seconds=161.001 checksum=1000000000 check=OK

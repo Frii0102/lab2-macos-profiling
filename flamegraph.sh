@@ -10,11 +10,12 @@ fg=tools/FlameGraph
     echo 'Спочатку: git clone https://github.com/brendangregg/FlameGraph.git tools/FlameGraph'
     exit 1
 }
-mkdir -p flamegraphs
-awk -f "$fg/stackcollapse-sample.awk" "$input" > "flamegraphs/$name.folded"
-[[ -s "flamegraphs/$name.folded" ]] || { echo 'No stacks found'; exit 1; }
+output=${FLAMEGRAPH_OUTPUT_DIR:-flamegraphs}
+mkdir -p "$output"
+awk -f "$fg/stackcollapse-sample.awk" "$input" > "$output/$name.folded"
+[[ -s "$output/$name.folded" ]] || { echo 'No stacks found'; exit 1; }
 perl "$fg/flamegraph.pl" --title "macOS sample — $name (fixed-duration observation)" \
-    "flamegraphs/$name.folded" > "flamegraphs/$name.svg"
-git -C "$fg" rev-parse HEAD > flamegraphs/tool-commit.txt
-printf '%s\n' "$input" > "flamegraphs/$name-source.txt"
-echo "Графік: flamegraphs/$name.svg"
+    "$output/$name.folded" > "$output/$name.svg"
+git -C "$fg" rev-parse HEAD > "$output/tool-commit.txt"
+printf '%s\n' "$input" > "$output/$name-source.txt"
+echo "Графік: $output/$name.svg"

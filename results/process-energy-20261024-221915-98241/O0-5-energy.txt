@@ -1,0 +1,1 @@
+seconds=1.750330500 energy_nj=8019134715 performance_core_energy_nj=8014560586 instructions=36395023268 cycles=6150817990

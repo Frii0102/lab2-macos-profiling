@@ -1,0 +1,599 @@
+{
+  "method": "Battery voltage \u00d7 discharge current; trapezoidal integration",
+  "repetitions": 200000,
+  "elements": 1000000,
+  "trials": [
+    {
+      "level": "O3",
+      "run": 1,
+      "process_bounds": [
+        15.148394166,
+        27.18080625
+      ],
+      "before": [
+        {
+          "t": 0.090691708,
+          "millivolts": 11474,
+          "milliamps": -294,
+          "watts": 3.373356,
+          "battery_percent": 48.0
+        },
+        {
+          "t": 0.632871375,
+          "millivolts": 11474,
+          "milliamps": -294,
+          "watts": 3.373356,
+          "battery_percent": 48.0
+        },
+        {
+          "t": 1.156310833,
+          "millivolts": 11474,
+          "milliamps": -294,
+          "watts": 3.373356,
+          "battery_percent": 48.0
+        },
+        {
+          "t": 1.698520375,
+          "millivolts": 11474,
+          "milliamps": -294,
+          "watts": 3.373356,
+          "battery_percent": 48.0
+        },
+        {
+          "t": 2.240672,
+          "millivolts": 11474,
+          "milliamps": -294,
+          "watts": 3.373356,
+          "battery_percent": 48.0
+        },
+        {
+          "t": 2.782589625,
+          "millivolts": 11474,
+          "milliamps": -294,
+          "watts": 3.373356,
+          "battery_percent": 48.0
+        },
+        {
+          "t": 3.324882625,
+          "millivolts": 11474,
+          "milliamps": -294,
+          "watts": 3.373356,
+          "battery_percent": 48.0
+        },
+        {
+          "t": 3.868171208,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 4.386505666,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 4.929429625,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 5.467587333,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 6.0084705,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 6.551738125,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 7.074244875,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 7.619148458,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 8.161809125,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 8.704767375,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 9.244004458,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 9.786357166,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 10.325963291,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 10.853730583,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 11.387541875,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 11.927362125,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 12.468718458,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 13.010323125,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 13.551872625,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 14.08256,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 14.626008166,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 15.14804575,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        }
+      ],
+      "work": [
+        {
+          "t": 15.168987958,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 15.691624583,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 16.217192041,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 16.73886475,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 17.260150583,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 17.781349458,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 18.303759666,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 18.826561125,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 19.348036833,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 19.869242416,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 20.391272375,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 20.912464541,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 21.433560583,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 21.953447958,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 22.471172541,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 22.995014083,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 23.516396375,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 24.041313458,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 24.564872791,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 25.087998083,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 25.611029,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 26.135653625,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 26.655557416,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 27.180791666,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        }
+      ],
+      "after": [
+        {
+          "t": 27.198037333,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 27.739745375,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 28.26239975,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 28.812526375,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 29.355316916,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 29.889212333,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 30.430629458,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 30.952349541,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 31.502835916,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 32.045147833,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 32.571328291,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 33.114339666,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 33.635486833,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 34.177365791,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 34.713886916,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 35.25839825,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 35.802402916,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 36.324594625,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 36.8645855,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 37.398945375,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 37.939822375,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 38.463677083,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 39.005673416,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 39.545146791,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 40.088352583,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 40.630923958,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 41.173135958,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 41.716442375,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        },
+        {
+          "t": 42.251682666,
+          "millivolts": 11430,
+          "milliamps": -588,
+          "watts": 6.72084,
+          "battery_percent": 47.0
+        }
+      ],
+      "sampled_seconds": 12.011803708,
+      "battery_side_j": 80.72941083287472,
+      "baseline_w": 6.331091153708497,
+      "incremental_estimate_j": 4.681586637072996
+    }
+  ]
+}
