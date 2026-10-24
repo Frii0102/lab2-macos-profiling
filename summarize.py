@@ -39,7 +39,6 @@ def summarize(folder):
         writer = csv.DictWriter(stream, fieldnames=list(data[0]))
         writer.writeheader()
         writer.writerows(data)
-    metrics = list(data[0])[5:]
     metrics = ['real', 'user', 'sys', 'kernel_seconds', 'rss_bytes', 'instructions',
                'cycles', 'ipc', 'minor_faults', 'major_faults', 'voluntary_switches',
                'involuntary_switches']
